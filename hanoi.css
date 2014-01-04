@@ -1,0 +1,59 @@
+h1 {
+  font-size: 100px;
+  color: darkorchid;
+}
+
+.pile {
+  height: 300px;
+  width: 300px;
+  display: table-cell;
+  vertical-align: bottom;
+  box-sizing: content-box;
+}
+
+.ring {
+  height: 100px;
+  margin:0 auto;
+  box-sizing: border-box;
+  border-style: outset;
+  border-width: 10px;
+  border-radius: 10px;
+}
+
+.small {
+  width: 100px;
+  background-color: #C8C800;
+  border-color: #FFFF00;
+}
+
+.medium {
+  width: 200px;
+  background-color: #FF0000;
+  border-color: #C80000;
+}
+
+.large {
+  width: 300px;
+  background-color: #0000FF;
+  border-color: #0000C8;
+}
+
+.hearts {
+  background:url(
+  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAhklEQVQYV2PUvMfyn4EIwAhTuCFsI1h5wCp/uDZkMbBCkIBcrj5YwaPJF8GK0cXACq/FX4Gb8iOFh4FjzhcGGA2TgChUP4riym99EgxcRS9QxOBuPO6yH6eXLPc4MsAVglRt8oN4CBn4bYJ4DkUhSGBK6Gy4upzVqXA2hkKYYmRFWE3E5VAA+JY98SqpJXgAAAAASUVORK5CYII=
+  ) repeat;
+}
+
+.skulls {
+  background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVUlEQVQYV2PUvMfyn4EIwIis8LrSH7gWoDiKdrhCZEUwFciKwQpBikCC6CbCxEEaURSCBJAlsSrE5R+Y9RhuRHYChhthVqKbilMhzDRkGqYZxWp8CgHAwUpv+wEX4gAAAABJRU5ErkJggg==
+    ) repeat;
+}
+
+.container {
+  border: 10px ridge rgb(155, 55, 55);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+  background-color: #36db04;
+}
